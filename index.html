@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calcolatrice</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#317EFB"/>
+    </head>
+    <body class="fullscreen">
+        <div class="container">
+            <table border="0" cellpadding="0" cellspacing="0" class="calc">
+                <tr>
+                    <div class="macos-top-bar">
+                        <div class="macos-button close-button"></div>
+                        <div class="macos-button minimize-button"></div>
+                        <div class="macos-button fullscreen-button"></div>
+                    </div>
+                    <td colspan="4" class="calc-display" id="display">0</td>
+                </tr>
+                <tr>
+                    <td class="calc-button" id="clear">AC</td>
+                    <td class="calc-button" id="plus-minus">±</td>
+                    <td class="calc-button" id="percentage">%</td>
+                    <td class="calc-button" id="divide">÷</td>
+                </tr>
+                <tr>
+                    <td class="calc-button" id="seven">7</td>
+                    <td class="calc-button" id="eight">8</td>
+                    <td class="calc-button" id="nine">9</td>
+                    <td class="calc-button" id="multiply">×</td>
+                </tr>
+                <tr>
+                    <td class="calc-button" id="four">4</td>
+                    <td class="calc-button" id="five">5</td>
+                    <td class="calc-button" id="six">6</td>
+                    <td class="calc-button" id="subtract">-</td>
+                </tr>
+                <tr>
+                    <td class="calc-button" id="one">1</td>
+                    <td class="calc-button" id="two">2</td>
+                    <td class="calc-button" id="three">3</td>
+                    <td class="calc-button" id="add">+</td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="calc-button" id="zero">0</td>
+                    <td class="calc-button" id="decimal">,</td>
+                    <td class="calc-button" id="equals">=</td>
+                </tr>
+
+            </table>
+        </div>
+        <script src="js/script.js"></script>
+        <script src="sw.js"></script>
+        <script src="js/calculator.js"></script>
+    </body>
+</html>
